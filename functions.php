@@ -8,7 +8,7 @@
 
 function resone_script_enqueue() {
 	wp_enqueue_script('jquery-3.4.1', 'https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js', array(), '3.3.1', true);
-	wp_enqueue_style('resone-css', get_template_directory_uri().'/css/resone.css', array(), '0.0.1', 'all' );
+	wp_enqueue_style('resone-css', get_template_directory_uri().'/css/resone.min.css', array(), '0.0.1', 'all' );
 	wp_enqueue_script('resone-js', get_template_directory_uri().'/js/resone.js', array(), '0.0.1', true );
 	// wp_enqueue_style( 'google_web_fonts', 'https://fonts.googleapis.com/css?family=Anton|Fjalla+One|Catamaran' );
 }
